@@ -1,3 +1,4 @@
+"use strict";
 
 /*исправить код таким образом, чтобы при фокусе у инпутов добавлялась красная рамка. Обработка событий должна происходить на formElement.*/
 
@@ -20,5 +21,3 @@ formElement.addEventListener ("blur", function(evt) {
      	activeElement.classList.remove('focused');   
     }
 }, true);
-
-
